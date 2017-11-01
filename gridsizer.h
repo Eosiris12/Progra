@@ -18,7 +18,11 @@ public:
   void onBtPrd (wxCommandEvent&);
   void onBtRst (wxCommandEvent&);
   void onBtDiv (wxCommandEvent&);
-
+  void onBt3 (wxCommandEvent&);
+  void onBt4 (wxCommandEvent&);
+  void onBt5 (wxCommandEvent&);
+  void onBt6 (wxCommandEvent&);
+	
 private:
   int valor1;
   int valor2;
