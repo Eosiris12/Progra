@@ -22,6 +22,12 @@ public:
   void onBt4 (wxCommandEvent&);
   void onBt5 (wxCommandEvent&);
   void onBt6 (wxCommandEvent&);
+  void onBt7 (wxCommandEvent&);
+  void onBt8 (wxCommandEvent&);
+  void onBt9 (wxCommandEvent&);
+  void onBt0 (wxCommandEvent&);
+  void onBtClose (wxCommandEvent&);
+  void onBtBck (wxCommandEvent&);
 	
 private:
   int valor1;
